@@ -1,0 +1,51 @@
+-----Algorithm_1 with random of 1000 numbers - START
+---     evens=528, a=1000, b=2, largestDistance=998
+-----Algorithm_1 with random of 1000 numbers - END - Time=14 milliseconds
+-----Algorithm_1 with random of 2000 numbers - START
+---     evens=1016, a=2, b=2000, largestDistance=1998
+-----Algorithm_1 with random of 2000 numbers - END - Time=1 milliseconds
+-----Algorithm_1 with random of 4000 numbers - START
+---     evens=2016, a=4000, b=2, largestDistance=3998
+-----Algorithm_1 with random of 4000 numbers - END - Time=12 milliseconds
+-----Algorithm_1 with random of 10000 numbers - START
+---     evens=5020, a=2, b=10000, largestDistance=9998
+-----Algorithm_1 with random of 10000 numbers - END - Time=11 milliseconds
+-----Algorithm_1 with random of 30000 numbers - START
+---     evens=14988, a=30000, b=2, largestDistance=29998
+-----Algorithm_1 with random of 30000 numbers - END - Time=97 milliseconds
+
+
+-----Algorithm_2 with random of 1000 numbers - START
+---     a=2,b=998, LargestDistance=996
+-----Algorithm_2 with random of 1000 numbers - END - Time=7 milliseconds
+-----Algorithm_2 with random of 2000 numbers - START
+---     a=1998,b=2, LargestDistance=1996
+-----Algorithm_2 with random of 2000 numbers - END - Time=4 milliseconds
+-----Algorithm_2 with random of 4000 numbers - START
+---     a=6,b=4000, LargestDistance=3994
+-----Algorithm_2 with random of 4000 numbers - END - Time=13 milliseconds
+-----Algorithm_2 with random of 10000 numbers - START
+---     a=9996,b=2, LargestDistance=9994
+-----Algorithm_2 with random of 10000 numbers - END - Time=48 milliseconds
+-----Algorithm_2 with random of 30000 numbers - START
+---     a=4,b=30000, LargestDistance=29996
+-----Algorithm_2 with random of 30000 numbers - END - Time=942 milliseconds
+
+
+-----Algorithm_3 with random of 1000 numbers - START
+---     max=1000,min=2, LargestDistance=998
+-----Algorithm_3 with random of 1000 numbers - END - Time=1 milliseconds
+-----Algorithm_3 with random of 2000 numbers - START
+---     max=1996,min=2, LargestDistance=1994
+-----Algorithm_3 with random of 2000 numbers - END - Time=0 milliseconds
+-----Algorithm_3 with random of 4000 numbers - START
+---     max=3996,min=2, LargestDistance=3994
+-----Algorithm_3 with random of 4000 numbers - END - Time=0 milliseconds
+-----Algorithm_3 with random of 10000 numbers - START
+---     max=10000,min=2, LargestDistance=9998
+-----Algorithm_3 with random of 10000 numbers - END - Time=1 milliseconds
+-----Algorithm_3 with random of 30000 numbers - START
+---     max=30000,min=2, LargestDistance=29998
+-----Algorithm_3 with random of 30000 numbers - END - Time=1 milliseconds
+
+Process finished with exit code 0
