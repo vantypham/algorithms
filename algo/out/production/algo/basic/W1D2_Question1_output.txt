@@ -1,0 +1,34 @@
+-----Algorithm_1 with random of 1000 numbers - START
+first=998, second=997, third=996
+-----Algorithm_1 with random of 1000 numbers - END - Time=14 milliseconds
+-----Algorithm_1 with random of 2000 numbers - START
+first=1999, second=1996, third=1991
+-----Algorithm_1 with random of 2000 numbers - END - Time=1 milliseconds
+-----Algorithm_1 with random of 4000 numbers - START
+first=3999, second=3995, third=3993
+-----Algorithm_1 with random of 4000 numbers - END - Time=0 milliseconds
+-----Algorithm_1 with random of 10000 numbers - START
+first=10000, second=9999, third=9999
+-----Algorithm_1 with random of 10000 numbers - END - Time=1 milliseconds
+-----Algorithm_1 with random of 30000 numbers - START
+first=29998, second=29994, third=29994
+-----Algorithm_1 with random of 30000 numbers - END - Time=3 milliseconds
+
+
+-----Algorithm_2 with random of 1000 numbers - START
+first=20, second=19, third=17
+-----Algorithm_2 with random of 1000 numbers - END - Time=0 milliseconds
+-----Algorithm_2 with random of 2000 numbers - START
+first=19, second=19, third=19
+-----Algorithm_2 with random of 2000 numbers - END - Time=0 milliseconds
+-----Algorithm_2 with random of 4000 numbers - START
+first=19, second=18, third=18
+-----Algorithm_2 with random of 4000 numbers - END - Time=0 milliseconds
+-----Algorithm_2 with random of 10000 numbers - START
+first=20, second=19, third=19
+-----Algorithm_2 with random of 10000 numbers - END - Time=0 milliseconds
+-----Algorithm_2 with random of 30000 numbers - START
+first=20, second=18, third=17
+-----Algorithm_2 with random of 30000 numbers - END - Time=0 milliseconds
+
+Process finished with exit code 0

@@ -4,8 +4,9 @@ import java.util.Random;
 
 public class ThirdLargest {
     public static void main(String[] args) {
-        //findThirdLargest_1(20);
-        findThirdLargest_2(20);
+        test_Algorithm_1();
+        System.out.println("\n");
+        test_Algorithm_2();
     }
 
     /**
@@ -103,9 +104,71 @@ public class ThirdLargest {
         for (int i = 0; i < arr.length; i++) {
             int r = 1 + (random.nextInt(size));
             arr[i] = r;
-            System.out.print(arr[i]+","); // printing each array element
+            //System.out.print(arr[i]+","); // printing each array element
         }
         return arr;
+    }
+
+    public static void test_Algorithm_1() {
+        System.out.println("-----Algorithm_1 with random of 1000 numbers - START");
+        long startTime = System.currentTimeMillis();
+        findThirdLargest_1(1000);
+        long endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_1 with random of 1000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+
+        System.out.println("-----Algorithm_1 with random of 2000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_1(2000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_1 with random of 2000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+
+        System.out.println("-----Algorithm_1 with random of 4000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_1(4000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_1 with random of 4000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+
+        System.out.println("-----Algorithm_1 with random of 10000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_1(10000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_1 with random of 10000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+        System.out.println("-----Algorithm_1 with random of 30000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_1(30000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_1 with random of 30000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+    }
+
+    public static void test_Algorithm_2() {
+        System.out.println("-----Algorithm_2 with random of 1000 numbers - START");
+        long startTime = System.currentTimeMillis();
+        findThirdLargest_2(1000);
+        long endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_2 with random of 1000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+
+        System.out.println("-----Algorithm_2 with random of 2000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_2(2000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_2 with random of 2000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+
+        System.out.println("-----Algorithm_2 with random of 4000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_2(4000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_2 with random of 4000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+
+        System.out.println("-----Algorithm_2 with random of 10000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_2(10000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_2 with random of 10000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
+        System.out.println("-----Algorithm_2 with random of 30000 numbers - START");
+        startTime = System.currentTimeMillis();
+        findThirdLargest_2(30000);
+        endTime = System.currentTimeMillis();
+        System.out.println("-----Algorithm_2 with random of 30000 numbers - END - Time=" + ""+(endTime-startTime) + " milliseconds");
     }
 
 }
