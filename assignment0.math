@@ -1,0 +1,64 @@
+Instructions
+Solve these before coming to the class. I need to see your work to see whether or not you are ready to take the class. If you do not know, please study; solve it and come to class. Otherwise, you may not do well in the midterm. No calculator.
+
+Problem 1: Prove by induction. 1^3 + 2^3 + ...+ n^3 = [n(n+1)/2]^2
+
+Problem 2: What is the sum? 7 + 12 + 17 + ...+ 1087. You  must use correct formula.
+
+Problem 3: What is the sum? 1 + 1/3 + 1/9 + 1/27 + ... You  must use correct formula.
+
+Problem 4: Simplify the expression x - 3y/8 + 5z/7 into a fraction. That is expression_1/expression_2 form.
+
+Problem 5: What is log 3 to the base 9. 
+----------------------------------------
+
+Answers:
+Problem 1: 
+----------
+Step 1: prove basic case n=1
+LHS = 1^3 = 1 = 1^2 = [2/2]^2 = [(1+1)/2]^2 = [1.(1+1)/2]^2 = [1(1+1)/2]^2 = RHS
+Step 2: Assume that the result is true for n = k
+means: 1^3 + 2^3 + ...+ k^3 = [k(k+1)/2]^2
+Step 3: Prove for n = k+1
+LHS = 1^3 + 2^3 + ...+ k^3  + (k+1)^3
+LHS =  [k(k+1)/2]^2  + (k+1)^3
+LHS =  [k(k+1)/2]^2  + (k+1)^2.(k+1)
+LHS =  k^2.[(k+1)/2]^2  + 2.(k+1)^2.[(k+1)/2]
+LHS =  [(k+1)/2] . (k^2.[(k+1)/2] + 4.2.[(k+1)/2]^2)
+LHS =  [(k+1)/2]^2 . (k^2 + 4.2.[(k+1)/2])
+LHS =  [(k+1)/2]^2 . (k^2 + 4.(k+1))
+LHS =  [(k+1)/2]^2 . (k^2 + 2.2k+2^2))
+Note that (a+b)^2 = a^2 + 2ab + b^2
+LHS =  [(k+1)/2]^2 . (k+2)^2)
+LHS =  ([(k+1)/2].(k+2))^2
+LHS =  [(k+1).(k+2)/2]^2
+LHS =  [(k+1).(k+1 +1)/2]^2  = RHS (Hence the proof)
+
+Problem 2: What is the sum? 7 + 12 + 17 + ...+ 1087
+---------
+Step 1:
+F(n) = F(n-1) + 5
+F(0) = 0, F(1) = 7, F(n)=1087
+Step 2: calculate n 
+n = (1087-7)/5 + 1 = 217
+Step 3: sum 
+Formula: Sum = n.(F(n) + F(1))/2
+Sum (Fn) = 217.(7+1087)/2 = 118699
+
+Problem 3: What is the sum? 1 + 1/3 + 1/9 + 1/27 + ...
+---------
+
+
+Problem 4: Simplify the expression x - 3y/8 + 5z/7 into a fraction. That is expression_1/expression_2 form.
+---------
+EXP = x - 3y/8 + 5z/7
+EXP = 56x/56 - 7.3y/56 + 8.5z/56
+EXP = (56x- 21y + 40z)/56  = fraction
+
+
+Problem 5: What is log 3 to the base 9
+---------
+Assume that Log(3)9 = x
+Means 3^x = 9
+Means 3^x = 3.3
+=> x=2
